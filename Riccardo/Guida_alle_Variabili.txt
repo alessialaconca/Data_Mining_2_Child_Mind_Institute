@@ -1,0 +1,80 @@
+Id = bruh
+
+Basic_Demos-Enroll_Season = in che stagione è avvenuta l'immatricolazione
+Basic-Demos_Age = età del soggetto
+
+##CGAS:: Children's goals assessment scale
+CGAS-Season = stagione di partecipazione / stagione di valutazione
+CGAS-CGAS_Score = punteggio di salute mentale che valuta le funzioni generali del soggetto U18 -> Over18 hanno valore?; alcuni valori>99, da investiagre
+
+##Physical Measures::
+Physical-Season = stagione in cui sono stati eseguiti test fisici
+Physical-BMI = valori sintetici? we we
+Physical-Height = altezza in pollici
+Physical-Wheight = peso in libbre
+Physical-Waist_Circum = circonferenza della vita in pollici
+Physical-Diastolical_BP = Pressione minima, sembra in regola ma alcuni valori da pazzi
+Physical-HeartRate = Battiti al minuto sembra regolare apparte spianate
+Physical-Systolical_BP = Pressione massima, come la minima
+
+##FitnessGram Treadmills:: prove fisiche su tapisrulant
+Fitness_Endurance-Season = stagione delle prove
+Fitness_Endurance-Max_Stage = massimo stadio di resistenza sul treadmill; valori ok apparte alcuni outliers oltre 20 alla cazzo
+Fitness_Endurance-Time_Mins = minuti INTERI in cui è stata effettuata la prova (tornano)
+Fitness_Endurance-Time_sec = secondi dei minuti in cui è stata effettuata la prova (puzzano/sintetici)
+
+##FitnessGram Child:: prove fisiche (di forza)/educazione 
+FGC-Season = stagione in cui sono state eseguite le prove fisiche
+FGC-FGC_CU = numero totali di curl up addominali
+FGC-FGC_CU_Zone = se il soggetto è nella "zona salutare" o no BOOLEAN come le altre
+FGC-FGC_GSND = grip force mano NON dominante (unità ignota)
+FGC-FGC_GSND = 3 livelli, se il soggetto è forte o no
+FGC-FGC_GSD = grip force mano dominante (unità ignota)
+FGC-FGC_GSD = 3 livelli, se il soggetto è forte o no
+FGC-FGC_PU = numero flessioni
+FGC-FGC_PU_Zone = se il soggetto è nella "zona salutare" o no BOOLEAN come le altre
+FGC-FGC_SRL = sit & reach sinistra (in cm con scatola)
+FGC-FGC_SRL_Zone = se il soggetto è nella "zona salutare" o no BOOLEAN come le altre
+FGC-FGC_SRR = sit & reach destra (in cm con scatola)
+FGC-FGC_SRR_Zone = se il soggetto è nella "zona salutare" o no BOOLEAN come le altre
+FGC-FGC_TL = trunk lift (balenottero) numero di ripetizioni
+FGC-FGC_TL_Zone = se il soggetto è nella "zona salutare" o no BOOLEAN come le altre
+
+##Bio-Electric Impedance Analysis:: misurazioni di key body moposition elements (massa grassa, acqua etc)
+BIA-Season = U know
+BIA-BIA_Activity_Level_num = livello di attività fisica giornaliera CATEGORICA
+BIA-BIA_BMC = quantità di calcio, fosforo e altro nelle ossa (probabilmente un t-score, con valori <-2.5 che indicano osteoporosi
+BIA-BIA_BMI = BMI ma calcolato in un'altra maniera dal precedente? abbastanza diversi i valori, con correlazione = 2/3
+BIA-BIA_BMR = Basal metabolic rate, energia che il corpo consuma a riposo in calorie
+BIA-BIA_DEE = consumo energia giornaliero in calorie
+BIA-BIA_ECW = quantità di acqua extracellulare (quindi acqua nei liquidi, muchi etc)
+BIA-BIA_FFM = quantità di massa magra MANCA IL CORRISPETTIVO GRASSO
+BIA-BIA_FFMI = indice di massa magra
+BIA-BIA_Fat = percentuale di massa grassa (o grasso, non chiarissimo) nel corpo
+BIA-BIA_Frame_num = corporatura, CATEGORICA
+BIA-BIA_ICW = quantità acqua intracellulare
+BIA-BIA_LDM = Lean Dry Mass, simile a FFM ma un po' diverso
+BIA-BIA_LST = tessuto magro morbido, NO idea cosa rappresenta il numero
+BIA-BIA_SMM = Massa muscolare scheletrica, NON chiaro cosa rappresenta
+BIA-BIA_TBW = total body water
+
+##PAQ:: physical activity questionario, diviso tra bambini e adolescenti
+PAQ_A-Season = deh
+PAQ_A-PAQ_A_Total = score attività fisica riassuntivo per gli adolescenti 1-5 
+PAQ_C-Season = deh
+PAQ_C-PAQ_C_Total = score attività fisica riassuntivo per i bambini 1-5
+
+##PCIAT:: questionario genitori riguardo uso internet dei figli
+PCIAT-PCIAT_Season = deh
+Tutte simili, da 0 a 5;
+
+## Sleep Disturbance Scale
+SDS-Season = deh
+SDS-SDS_Total_Raw = score effettivo di sleep disturbance
+SDS-SDS_Total_T = valore (distribuzione t-student) dello score
+
+##Internet USe
+PreInt_EduHx-Season = bruh
+PreInt_EduHx-computerinternet_hoursday = ore in cui il soggetto usa internet CATEGORIE
+
+Sii = quello ganzo, non ce nel dizionario. Categorica 0-4
