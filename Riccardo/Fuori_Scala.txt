@@ -1,0 +1,11 @@
+CGAS-CGAS_Score: valori superano 999
+Physical-BMI: valori 
+Physical-Height: valori estremi (6 anni, 1.9 metri)
+Physical-Wheight: valori particolari, come estremi
+
+paq fuori scala, vanno da 1-5
+
+da outliers:
+Bia-bia_bmc: valori anomali fuori scala estremi
+bia bia bmr: valori anomali fuoriscala
+bia bia dee: valori anomali fuoriscala
