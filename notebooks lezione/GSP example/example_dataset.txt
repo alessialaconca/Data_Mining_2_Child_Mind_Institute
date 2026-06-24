@@ -1,0 +1,5 @@
+milk -1 bread -1 beer bread milk -1 -2
+bread milk -1 beer bread -1 beer milk -1 beer bread -1 -2
+beer -1 beer bread milk -1 beer bread milk -1 beer bread -1 beer milk -1 -2
+beer -1 beer bread -1 -2
+bread -1 -2
